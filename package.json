@@ -1,0 +1,15 @@
+{
+  "name": "formatNumber",
+  "version": "1.0.0",
+  "main": "js/formatNumber",
+  "lotus": {
+    "plugins": [
+      "lotus-coffee"
+    ]
+  },
+  "dependencies": {
+    "Nan": "aleclarson/Nan#1.0.0",
+    "assertType": "aleclarson/assertType#1.0.0",
+    "spliceString": "aleclarson/spliceString#1.0.0"
+  }
+}
