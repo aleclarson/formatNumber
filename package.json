@@ -8,7 +8,7 @@
     ]
   },
   "dependencies": {
-    "Nan": "aleclarson/Nan#1.0.0",
+    "Nan": "aleclarson/Nan#1.1.0",
     "assertType": "aleclarson/assertType#1.0.0",
     "spliceString": "aleclarson/spliceString#1.0.0"
   }
