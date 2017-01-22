@@ -1,0 +1,10 @@
+{
+  "name": "formatNumber",
+  "version": "1.0.1",
+  "main": "js/formatNumber",
+  "dependencies": {
+    "Nan": "aleclarson/Nan#1.1.1",
+    "assertType": "aleclarson/assertType#2.0.1",
+    "spliceString": "aleclarson/spliceString#1.0.0"
+  }
+}
