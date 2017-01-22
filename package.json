@@ -1,15 +1,17 @@
 {
   "name": "formatNumber",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "js/formatNumber",
-  "lotus": {
-    "plugins": [
-      "lotus-coffee"
-    ]
+  "plugins": [
+    "lotus-coffee"
+  ],
+  "scripts": {
+    "build": "coffee-build -v 1.11.x -b -o js src",
+    "postinstall": "npm run build"
   },
   "dependencies": {
-    "Nan": "aleclarson/Nan#1.1.0",
-    "assertType": "aleclarson/assertType#1.0.0",
+    "Nan": "aleclarson/Nan#1.1.1",
+    "assertType": "aleclarson/assertType#2.0.1",
     "spliceString": "aleclarson/spliceString#1.0.0"
   }
 }
